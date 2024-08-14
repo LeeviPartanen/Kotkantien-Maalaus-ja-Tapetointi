@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: Roboto;
 }
 h1 {
@@ -6,4 +7,32 @@ h1 {
 }
 h2 {
     font-size: 16px;
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+footer {
+    padding: 14px 16px;
+}
+footer p {
+    display: inline;
+    margin-right: 1em;
+    text-align: center;
+}
+.footer {
+    text-align: center;
 }
