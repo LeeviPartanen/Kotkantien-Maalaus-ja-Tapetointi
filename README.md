@@ -30,7 +30,9 @@ Tämä on Kotkantien Maalaus ja Tapetointi -yrityksen verkkosivuprojekti. Sivust
 
 ## Yhteystiedot
 Kotkantie 3, 90100 Oulu
+
 044 999 888 99
+
 info@kotkantienmaalaus.fi
 
 © 2025 Kotkantien Maalaus ja Tapetointi
