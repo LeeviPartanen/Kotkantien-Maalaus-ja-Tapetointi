@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Värien testaus</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
 </head>
 <body>
     <div class="topnav">
@@ -13,9 +14,10 @@
         <a href="varientestaus.html">Värien testaus</a>
         <a href="palvelut.html">Palvelut</a>
         <a href="index.html">Etusivu</a>
-    </div>
+    </div><br><br><br><br>
     <h1>Värien testaus</h1>
-    <br>
+    <p style="text-align: center;">Valitse ensin toinen väripaleteista (Väri 1 tai Väri 2), jonka jälkeen voit valita värin.</p>
+    <p style="text-align: center;">Klikkaa "Nollaa värit" poistaaksesi värit paleteista.</p>
     <div class="color-display">
         <div id="color-box1" class="color-box">Väri 1</div>
         <div id="color-box2" class="color-box">Väri 2</div>
@@ -39,7 +41,12 @@
         <div class="color-swatch" data-color="#615550" style="background-color: #615550;">Brown Granite</div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="button-container">
+        <button id="reset-button">Nollaa värit</button>
+        <button id="random-color-button">Satunnaiset värit</button>
+    </div>
+
+    <script src="javascript/script.js"></script>
     <br>
     <footer>
         <div class="footer">
