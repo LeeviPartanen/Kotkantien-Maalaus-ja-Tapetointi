@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
 </head>
 <body>
+    <!-- Navigointipalkki -->
     <div class="topnav">
         <a href="yhteystiedot.html">Yhteystiedot</a>
         <a href="galleria.html">Galleria</a>
@@ -15,14 +16,21 @@
         <a href="palvelut.html">Palvelut</a>
         <a href="index.html">Etusivu</a>
     </div><br><br><br><br>
+
+    <!-- Otsikko ja ohjeteksti käyttäjälle -->
     <h1>Värien testaus</h1>
     <p style="text-align: center;">Valitse ensin toinen väripaleteista (Väri 1 tai Väri 2), jonka jälkeen voit valita värin.</p>
     <p style="text-align: center;">Klikkaa "Nollaa värit" poistaaksesi värit paleteista.</p>
+
+    <!-- Värivalinnan kentät -->
     <div class="color-display">
         <div id="color-box1" class="color-box">Väri 1</div>
         <div id="color-box2" class="color-box">Väri 2</div>
     </div>
+
+    <!-- Väripaletti, jossa on kaikki valittavat värit -->
     <div class="color-palette">
+        <!-- Jokainen väri on yksittäinen "swatch" div, johon on lisätty väriarvo sekä sitä vastaava taustaväri -->
         <div class="color-swatch" data-color="#DD4132" style="background-color: #DD4132;">Fiesta</div>
         <div class="color-swatch" data-color="#9E1030" style="background-color: #9E1030;">Jester Red</div>
         <div class="color-swatch" data-color="#FE840E" style="background-color: #FE840E;">Turmeric</div>
@@ -41,25 +49,30 @@
         <div class="color-swatch" data-color="#615550" style="background-color: #615550;">Brown Granite</div>
     </div>
 
+    <!-- Painikkeet värien nollaamiseen ja satunnaisten värien valitsemiseen -->
     <div class="button-container">
         <button id="reset-button">Nollaa värit</button>
         <button id="random-color-button">Satunnaiset värit</button>
     </div>
 
+    <!-- Linkitetään JavaScript-tiedosto, joka vastaa värivalinnoista -->
     <script src="javascript/script.js"></script>
 
+    <!-- Ionicons-kirjasto, joka vastaa sosiaalisen median linkeistä -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <br>
     <footer>
         <div class="footer">
+            <!-- Navigointilinkit footerissa -->
             <p><a href="index.html">Etusivu</a></p>
             <p><a href="palvelut.html">Palvelut</a></p>
             <p><a href="varientestaus.html">Värien testaus</a></p>
             <p><a href="galleria.html">Galleria</a></p>
             <p><a href="yhteystiedot.html">Yhteystiedot</a></p>
             <br><br>
+            <!-- Yrityksen yhteystiedot -->
             <p>Kotkantie 3, 90100 Oulu</p>
             <br>
             <p>044 999 888 99</p>
@@ -67,6 +80,7 @@
             <p>info@kotkantienmaalaus.fi</p>
             <br><br>
             <p>&copy; Kotkantien Maalaus ja Tapetointi 2025</p>
+            <!-- Sosiaalisen median linkit -->
             <div class="social-links">
                 <a href="https://www.youtube.com/" target="_blank">
                     <ion-icon name="logo-youtube"></ion-icon>
